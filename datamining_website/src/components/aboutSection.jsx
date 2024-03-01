@@ -1,12 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import MemberCard from "./memberCard";
 import MemberDetails from "./memberDetails";
 export default function AboutSection() {
-  const [selectedMember, setSelectedMember] = useState({});
-
-  useEffect(() => {
-    console.log("Selected member cambio", selectedMember);
-  }, [selectedMember]);
+  const [selectedMember, setSelectedMember] = useState();
 
   const handleCardClick = (member) => {
     setSelectedMember(member);
