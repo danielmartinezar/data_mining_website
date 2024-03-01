@@ -3,8 +3,8 @@ import { XMarkIcon } from "@heroicons/react/24/solid"; // Ajusta la importación
 
 const MemberDetails = ({ name, image, biography, onClose }) => {
   return (
-    <div className="fixed top-0 mt-10 right-0 w-full h-full bg-black bg-opacity-75 flex items-center justify-center">
-      <div className="border border-[#0032b0] rounded-2xl border-solid bg-[#74c0ff] p-8 max-w-md max-h-full overflow-y-auto relative">
+    <div className="fixed top-0 pt-28  right-0 w-full h-full bg-black bg-opacity-75 flex items-center justify-center">
+      <div className="border border-[#0032b0] rounded-2xl border-solid bg-[#74c0ff] p-8 max-w-md max-h-full overflow-y-auto relative" >
         <button
           onClick={onClose}
           className="absolute top-4 right-4 text-gray-600 hover:text-gray-800 focus:outline-none"

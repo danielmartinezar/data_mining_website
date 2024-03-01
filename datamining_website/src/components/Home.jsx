@@ -27,7 +27,7 @@ export default function Home() {
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0 lg:ml-20 sm:ml-8">
-          <div className=" w-[250px] h-[250px] lg:w-[650px] lg:h-[650px] relative">
+          <div className=" w-[250px] h-[250px] lg:w-[580px] lg:h-[580px] md:w-[320px] md:h-[320px] lg:ml-32 relative">
             <img
               className="rounded-full h-full"
               src={"./images/dataMining.png"}
