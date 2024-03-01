@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.86847290.css",
-    "main.js": "/static/js/main.fc36e9e6.js",
-    "static/js/453.06883df7.chunk.js": "/static/js/453.06883df7.chunk.js",
-    "index.html": "/index.html",
-    "main.86847290.css.map": "/static/css/main.86847290.css.map",
-    "main.fc36e9e6.js.map": "/static/js/main.fc36e9e6.js.map",
-    "453.06883df7.chunk.js.map": "/static/js/453.06883df7.chunk.js.map"
+    "main.css": "/data_mining_website/static/css/main.86847290.css",
+    "main.js": "/data_mining_website/static/js/main.2a973a45.js",
+    "static/js/453.06883df7.chunk.js": "/data_mining_website/static/js/453.06883df7.chunk.js",
+    "index.html": "/data_mining_website/index.html",
+    "main.86847290.css.map": "/data_mining_website/static/css/main.86847290.css.map",
+    "main.2a973a45.js.map": "/data_mining_website/static/js/main.2a973a45.js.map",
+    "453.06883df7.chunk.js.map": "/data_mining_website/static/js/453.06883df7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86847290.css",
-    "static/js/main.fc36e9e6.js"
+    "static/js/main.2a973a45.js"
   ]
 }
