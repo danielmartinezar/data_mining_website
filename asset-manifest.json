@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/data_mining_website/static/css/main.86847290.css",
-    "main.js": "/data_mining_website/static/js/main.2a973a45.js",
+    "main.css": "/data_mining_website/static/css/main.bb63cddd.css",
+    "main.js": "/data_mining_website/static/js/main.f0d94498.js",
     "static/js/453.06883df7.chunk.js": "/data_mining_website/static/js/453.06883df7.chunk.js",
     "index.html": "/data_mining_website/index.html",
-    "main.86847290.css.map": "/data_mining_website/static/css/main.86847290.css.map",
-    "main.2a973a45.js.map": "/data_mining_website/static/js/main.2a973a45.js.map",
+    "main.bb63cddd.css.map": "/data_mining_website/static/css/main.bb63cddd.css.map",
+    "main.f0d94498.js.map": "/data_mining_website/static/js/main.f0d94498.js.map",
     "453.06883df7.chunk.js.map": "/data_mining_website/static/js/453.06883df7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.86847290.css",
-    "static/js/main.2a973a45.js"
+    "static/css/main.bb63cddd.css",
+    "static/js/main.f0d94498.js"
   ]
 }
