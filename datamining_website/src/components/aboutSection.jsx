@@ -14,38 +14,38 @@ export default function AboutSection() {
   const membersData = [
     {
       id: 1,
-      name: "Eduardo Martinez",
+      name: "Daniel Martinez",
       biography:
-        "Soy un apasionado full stack developer. Nací en la ciudad de sincelejo, tengo 23 años y me encuentro en mi ultimo semestre de ingenieria de sistemas Soy un apasionado full stack developer. Nací en la ciudad de sincelejo, tengo 23 años y me encuentro en mi ultimo semestre de ingenieria de sistemas.",
-      image: "./images/photoDaniel.png",
+        "I'm a passionate Full Stack Developer with experience in Node.js, Express, SQL, Mongo, and React, specializing in backend development for scalable web applications. I'm also enthusiastic about mobile development, recognizing its transformative impact. My commitment to innovation and adaptability drives me to tackle new challenges and quickly adjust to industry changes.",
+      image: "./images/photoDaniel-Martinez.jpg",
     },
     {
       id: 2,
-      name: "Daniel Eduardo Martinez",
+      name: "José Rueda",
       biography:
-        "Soy un apasionado full stack developer. Nací en la ciudad de sincelejo, tengo 23 años y me encuentro en mi ultimo semestre de ingenieria de sistemas Soy un apasionado full stack developer. Nací en la ciudad de sincelejo, tengo 23 años y me encuentro en mi ultimo semestre de ingenieria de sistemas.",
-      image: "./images/photoDaniel.png",
+        "I am a ninth-semester systems engineering student at the University of the North. I have experience programming in languages such as Javascript, Java, Python, Dart, Frontend web programming with React, HTML, and CSS. I also have experience with MySQL databases. I am enthusiastic and enjoy learning new programming and software design skills. I consider myself an eloquent person with great communication and group interaction skills.",
+      image: "./images/jose-rueda.jpg",
     },
     {
       id: 3,
-      name: "Daniel Eduardo Martinez",
+      name: "Laura Benavides",
       biography:
-        "Soy un apasionado full stack developer. Nací en la ciudad de sincelejo, tengo 23 años y me encuentro en mi ultimo semestre de ingenieria de sistemas Soy un apasionado full stack developer. Nací en la ciudad de sincelejo, tengo 23 años y me encuentro en mi ultimo semestre de ingenieria de sistemas.",
-      image: "./images/photoDaniel.png",
+        "My name is Laura Andrea Benavides Celis, a tenth-semester student of Systems Engineering. I am 21 years old and was born in Barranquilla. I enjoy front-end web development and am constantly learning and improving in this field.",
+      image: "./images/laura-benavides.jpg",
     },
     {
       id: 4,
-      name: "Daniel Eduardo Martinez",
+      name: "Alvaro Alvarado",
       biography:
-        "Especializado en desarrollo backend con Python, mi experiencia abarca desde Django hasta FastAPI, ofreciendo soluciones robustas y escalables en sectores como seguros, bienes raíces en EE. UU., y marketing digital con Shopify. Trabajo efectivamente en entornos remotos, colaborando con equipos nacionales e internacionales, lo que me ha permitido perfeccionar mis habilidades de comunicación y adaptabilidad. Comprometido con la excelencia en el desarrollo de software, aplico las mejores prácticas y busco continuamente nuevas tecnologías para impulsar la innovación. Mi pasión por resolver problemas complejos y optimizar procesos me motiva a crear aplicaciones que no solo satisfacen los requisitos técnicos sino que también generan valor tangible para los usuarios finales y el negocio.",
-      image: "./images/photoDaniel.png",
+        "I was born in Magangué, Bolívar. I am a ninth-semester student with a passion for software development, AI, Machine Learning and a drive to be a good professional.",
+      image: "./images/alvaro-alvarado.jpg",
     },
     {
       id: 5,
-      name: "Daniel Eduardo Martinez",
+      name: "Sofia Gallas",
       biography:
-        "Soy un apasionado full stack developer. Nací en la ciudad de sincelejo, tengo 23 años y me encuentro en mi ultimo semestre de ingenieria de sistemas Soy un apasionado full stack developer. Nací en la ciudad de sincelejo, tengo 23 años y me encuentro en mi ultimo semestre de ingenieria de sistemas.",
-      image: "./images/photoDaniel.png",
+        "I am a German international student studying Global Business Management in the last semester. I was born in Munich, in the south of Germany, and my main interests are Marketing and Strategic Management.",
+      image: "./images/sofia-gallas.jpg",
     },
   ];
   return (

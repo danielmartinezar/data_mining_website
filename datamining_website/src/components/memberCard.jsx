@@ -17,9 +17,11 @@ export default function MemberCard({
       onClick={handleCardClick}
     >
       <div
-        className="h-96 md:h-72 relative group transition-transform transform-gpu hover:translate-y-1"
-        style={{ background: `url(${imgURL})`, backgroundSize: "cover" }}
-      ></div>
+        className="h-96 md:h-72 "
+        // style={{ background: `url(${imgURL})`, backgroundSize: "cover" }}
+      >
+        <img alt={name} className="h-full w-full lg:w-[380px]" src={imgURL}></img>
+      </div>
       <div className="text-[#0050ff] rounded-b-xl mt-3 bg-[#181818]py-6 px-4">
         <h5 className="text-xl font-semibold">{name}</h5>
         <p className="text-[#001657] mb-2">

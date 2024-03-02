@@ -5,7 +5,7 @@ export default function Home() {
     <section>
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className="col-span-7 place-self-center text-center sm:text-left">
-          <h1 className="text-[#0050ff] mb-4 text-4xl sm:text-7xl lg:text-9xl font-extrabold">
+          <h1 className="text-[#0050ff] mb-4 text-7xl lg:text-9xl font-extrabold">
             Hi{"👋"}
             <br />
             There!
