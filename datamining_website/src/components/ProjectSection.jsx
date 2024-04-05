@@ -87,43 +87,7 @@ export default function ProjectSection() {
               </p>
             </div>
           ))}
-        </div> <h3 className="text-center font-semibold text-5xl text-[#0050ff] ">
-          Dataset Description
-        </h3>
-        <div>
-          <p className="mt-4 mb-8 text-left lg:text-2xl text-[#001657]">
-            <b>DIABETES RISK FACTORS DATASET: </b>
-            The dataset for the purpose of diabetes prediction contains a variety
-            of features associated with risk factors for diabetes. These features
-            may include variables such as blood sugar levels, body mass index
-            (BMI), age, family history, and other relevant health indicators. Each
-            row includes a diagnosis of whether the patient has diabetes in order
-            to train a model capable of predicting this disease based on other
-            factors. Additionally, this dataset may be utilized to explore
-            relationships between various health metrics and diabetes diagnosis,
-            as well as to develop and evaluate predictive models for identifying
-            individuals at risk of developing diabetes.
-          </p>
-        </div>
-        <h3 className="text-center font-semibold text-5xl text-[#0050ff] ">
-          Hypotheses
-        </h3>
-        <div>
-          <p className="mt-4 mb-8 text-left lg:text-2xl text-[#001657] ">
-            <b>Hypotheses about risk factors and diagnosis:</b> Patients with higher
-            levels of blood glucose are more likely to be diagnosed with diabetes.
-            Additionally, high blood pressure (hypertension) is associated with a
-            greater risk of diabetes, as both conditions are linked to insulin
-            resistance.<br /> <b>Hypotheses about relationships between variables:</b> There is
-            a correlation between BMI and blood glucose, as obesity may contribute
-            to insulin resistance and thus increase blood glucose levels.<br />
-            <b>Hypothesis about the effectiveness of the prediction model:</b> A machine
-            learning model trained with this dataset will be able to accurately
-            predict the diagnosis of diabetes in new patients, using features such
-            as the number of pregnancies, blood glucose level, blood pressure,
-            BMI, and age.
-          </p>
-        </div>
+        </div> 
         <div className="mt-16 text-center">
           <h3 className="font-semibold text-5xl text-[#0050ff] mb-8">
             Objectives for Estimation
@@ -192,6 +156,10 @@ export default function ProjectSection() {
         <br></br>
         <div className="flex justify-center items-center">
           <Lightbox imageUrl={"./images/models.jpg"} />
+        </div>
+        <br></br>
+        <div className="flex justify-center items-center">
+          <Lightbox imageUrl={"./images/accuracy.png"} />
         </div>
         <div className="mt-16 text-center">
           <h3 className="font-semibold text-5xl text-[#0050ff] mb-8">
