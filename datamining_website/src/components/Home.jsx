@@ -1,9 +1,14 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
+
 export default function Home() {
+  const handleGithubClick = () => {
+    window.open("https://github.com/danielmartinezar/data_mining_website", "_blank");
+  };
+
   return (
     <section>
-      <div className="grid grid-cols-1 sm:grid-cols-12">
+      <div id="home" className="grid grid-cols-1 sm:grid-cols-12">
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-[#0050ff] mb-4 text-7xl lg:text-9xl font-extrabold">
             Hi{"👋"}
@@ -18,10 +23,17 @@ export default function Home() {
             understanding of data mining concepts and techniques.
           </p>
           <div>
-            <button className="px-6 py-3 w-full sm:w-fit lg:text-2xl rounded-full mr-4 mb-2 bg-[#0050ff] text-[#e4f6ff] hover:bg-[#0048e4]">
-              More Info
-            </button>
-            <button className="px-6 py-3 w-full sm:w-fit lg:text-2xl rounded-full bg-transparent  hover:bg-[#74c0ff] border border-[#1363ff] text-[#001657]">
+            <a href="#project-section">
+              <button
+                className="px-6 py-3 w-full sm:w-fit lg:text-2xl rounded-full mr-4 mb-2 bg-[#0050ff] text-[#e4f6ff] hover:bg-[#0048e4]"
+              >
+                More Info
+              </button>
+            </a>
+            <button
+              className="px-6 py-3 w-full sm:w-fit lg:text-2xl rounded-full bg-transparent  hover:bg-[#74c0ff] border border-[#1363ff] text-[#001657]"
+              onClick={handleGithubClick}
+            >
               Github
             </button>
           </div>

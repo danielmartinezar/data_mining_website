@@ -49,7 +49,7 @@ export default function AboutSection() {
     },
   ];
   return (
-    <div>
+    <div id="about-us">
       <h2 className="text-center text-6xl font-bold text-[#0050ff] mt-10 lg:mt-52 mb-8 md:mb-12">
         About Us
       </h2>

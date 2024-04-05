@@ -25,7 +25,7 @@ export default function Navbar() {
     <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#001657] bg-opacity-100">
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <a
-          href="/"
+          href="#home"
           className="text-2xl md:text-5xl text-blue-500 font-semibold"
         >
           {"</>"}
@@ -51,7 +51,7 @@ export default function Navbar() {
           <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
             <Navlink href="#home" title="Home" />
             <Navlink href="#about-us" title="About" />
-            <Navlink href="#project" title="Project" />
+            <Navlink href="#project-section" title="Project" />
           </ul>
         </div>
       </div>
